@@ -81,16 +81,16 @@ body{
 
 .instagram{
   width: 30px;
-height: 30px;
+  height: 30px;
   margin: 12px;
 }
 
 .line{
-position: absolute;
-width: 100%;
-top: 128px;
+  position: absolute;
+  width: 100%;
+  top: 128px;
 
-border: 2px solid #283745;
+  border: 2px solid #283745;
 }
 
 
