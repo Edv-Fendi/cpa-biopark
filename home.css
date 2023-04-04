@@ -17,30 +17,55 @@ body{
    
 }
 #header{
-    display: flex;
-    width: 100%;
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    background-color: gray;
-    justify-content: space-between;
+  display: flex;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  /* background-color: gray; */
+  justify-content: space-between;
 }
 #header .logoLeft {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin: 16px 0px 16px 16px;
 }
 
 #header h1{
-    font-size: 3em;  
+  display: flex;
+  width: 175px;
+  height: 85px;
+  left: 645px;
+  top: 16px;
+  
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px; 
+  color: #283745;
+
 }
 #header h2{
-    font-size: 30px;  
+  display: flex;
+  width: 309px;
+  height: 25px;
+  left: 597px;
+  top: 87px;
+  
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  
+  color: #283745; 
 }
 
 .images {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 .frog{
  margin: 12px;
@@ -52,6 +77,14 @@ body{
 
 .instagram{
   margin: 12px;
+}
+
+.line{
+position: absolute;
+width: 100%;
+top: 128px;
+
+border: 2px solid #283745;
 }
 
 
