@@ -67,22 +67,22 @@ body{
   display: flex;
   flex-direction: row;
 }
-.frog{
+.biopark{
   width: 30px;
-  height: 35px;;
-  margin: 12px;  
+  height: 30px;
+  margin: 4px 24px 5px 4px;  
 }
 
 .facebook{
   width: 30px;
   height: 30px;
-  margin: 12px;
+  margin: 4px 24px 5px 4px;
 }
 
 .instagram{
   width: 30px;
   height: 30px;
-  margin: 12px;
+  margin: 4px 45px 5px 4px;
 }
 
 .line{
