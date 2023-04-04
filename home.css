@@ -118,8 +118,8 @@
 display: flex;
 flex-direction: column;
 
-border: solid;
-border-color: black;
+/* border: solid;
+border-color: black; */
 
 margin-top: 2.60em;
 width: 13em;
@@ -136,8 +136,8 @@ height: 3.55em;
 top: 11.50em;
 margin-bottom: 3.70em;
 
-border: solid;
-border-color: black;
+/* border: solid;
+border-color: black; */
 
 background: #283745;
 border-radius: 0px 10px 10px 0px;
@@ -149,8 +149,8 @@ border-radius: 0px 10px 10px 0px;
   height: 100%;
   top: 20em;
 
-  border: solid;
-  border-color: black;
+  /* border: solid;
+  border-color: black; */
   
   background: #FF1949;
   border-radius: 0px 5px 5px 0px;
@@ -163,9 +163,9 @@ border-radius: 0px 10px 10px 0px;
   width: 100%;
   height: 3.55em;
   top: 11.50em;
-  
+/*   
   border: solid;
-  border-color: black;
+  border-color: black; */
   
   background: #283745;
   border-radius: 0px 10px 10px 0px;
