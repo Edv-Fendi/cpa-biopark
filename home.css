@@ -88,7 +88,6 @@
   width: 30px;
   height: 30px;
   margin: 8px 45px 5px 4px;
-  
 }
 
 .line{
@@ -116,7 +115,8 @@
   
   background: rgba(36, 55, 70, 0.25);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
+  transition: 0.5s;
+  transition-delay: 5;
 }
 #marginal{
   margin-right: 4em;
@@ -158,7 +158,8 @@ width: 100%;
 height: 3.55em;
 top: 11.50em;
 margin-bottom: 3.70em;
-
+transition: 0.5s;
+transition-delay: 5;
 /* border: solid;
 border-color: black; */
 
@@ -181,11 +182,13 @@ border-radius: 0px 10px 10px 0px;
 }
 
 #textomenu{
+  display: flex;
   align-items: center;
   justify-content: center;
-  padding-left: 1em;
-  padding-top: 10px;
+  width: 100%;
+  font-weight: 200px;
   color: white;
+  font-size: 200%;
 }
 
 #last-item-menu{
@@ -194,6 +197,8 @@ border-radius: 0px 10px 10px 0px;
   width: 100%;
   height: 3.55em;
   top: 11.50em;
+  transition: 0.5s;
+  transition-delay: 5;
 /*   
   border: solid;
   border-color: black; */
