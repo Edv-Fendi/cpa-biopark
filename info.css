@@ -2,7 +2,7 @@
     display: flex;
     border: solid;
     background: #283745;
-    width: 85em;
+    width: 75%;
     height: 767px;
     left: 268px;
     top: 165px;
@@ -30,7 +30,7 @@
 
 .contentNew{
     display: flex;
-    width: 50em;
+    width: 95%;
     height: 461px;
     left: 297px;
     top: 262px;
@@ -39,8 +39,8 @@
     text-justify: inter-word;
     font-family: Inter;
     font-style: normal;
-    font-weight: 200;
-    font-size: 24px;
+    font-weight: 200px;
+    font-size: 120%;
     line-height: 29px;
 
     color:white;
@@ -50,11 +50,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     
 }
 #imagem{
-    display: block;
-    position: fixed;
+    display: flex;
+    position: sticky;
     margin: 130px 0 0 174px ;
     z-index: 1;
 }
@@ -63,11 +64,11 @@
 #comentarioImage{
     display: flex;
     font-family: Inter;
-    width: 600px;
-    height: 77px;
+    width: 50em;
+    height: 5em;
     justify-content: center;
     color: white;
     background: #3A4651;
     border-radius: 16px;
-    margin-left: 370px;
+    margin-left: -13em;
 }
