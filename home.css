@@ -211,7 +211,7 @@ border-radius: 0px 10px 10px 0px;
 .carousel {
   border: solid #283745;
   
-  border-radius: 2.6em;
+  border-radius: 1em;
   margin-top: 2.6em;
   margin-left: 5%;
   position: relative;
@@ -278,11 +278,11 @@ align-items: center;
   width: 50%;
   height: 15em;
   background-color: #283745;
-  margin-left: 5em;
+  margin-left: 2em;
   border-radius: 5px;
 }
 .news3e4{
-  margin-top: 3em;
+  margin-top: 1em;
   margin-left: 20%;
   display: flex;
   width: 75%;
@@ -303,6 +303,6 @@ align-items: center;
   width: 50%;
   height: 15em;
   background-color: #283745;
-  margin-left: 5em;
+  margin-left: 2em;
   border-radius: 5px;
 }
