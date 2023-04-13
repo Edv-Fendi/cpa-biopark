@@ -213,7 +213,7 @@ border-radius: 0px 10px 10px 0px;
   
   border-radius: 2.6em;
   margin-top: 2.6em;
-  margin-left: 6em;
+  margin-left: 5%;
   position: relative;
   width: 75%;
   height: 30em;
@@ -255,4 +255,54 @@ border-radius: 0px 10px 10px 0px;
 }
 .carousel-dot.active {
   background-color: white;
+}
+
+.news1e2{
+margin-left: 20%;
+display: flex;
+width: 75%;
+height: 100%;
+/* background-color: #FF1949; */
+justify-content: center;
+align-items: center;
+}
+.new1{
+  display: flex;
+  width: 50%;
+  height: 15em;
+  background-color: #283745;
+  border-radius: 5px;
+}
+.new2{
+  display: flex;
+  width: 50%;
+  height: 15em;
+  background-color: #283745;
+  margin-left: 5em;
+  border-radius: 5px;
+}
+.news3e4{
+  margin-top: 3em;
+  margin-left: 20%;
+  display: flex;
+  width: 75%;
+  height: 100%;
+  /* background-color: #FF1949; */
+  justify-content: center;
+  align-items: center;
+}
+.new3{
+  display: flex;
+  width: 50%;
+  height: 15em;
+  background-color: #283745;
+  border-radius: 5px;
+}
+.new4{
+  display: flex;
+  width: 50%;
+  height: 15em;
+  background-color: #283745;
+  margin-left: 5em;
+  border-radius: 5px;
 }

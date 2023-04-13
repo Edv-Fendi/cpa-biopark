@@ -34,4 +34,4 @@ setInterval(() => {
   setActiveDot();
 }, 
 // timer
-10000);
+5000);
