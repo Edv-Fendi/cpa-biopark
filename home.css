@@ -291,7 +291,7 @@ align-items: center;
   transition: 1s;
   display: flex;
   width: 50%;
-  height: 15em;
+  height: 15%;
   background-color: #283745;
   border-radius: 5px;
 }
@@ -299,7 +299,7 @@ align-items: center;
   transition: 1s;
   display: flex;
   width: 50%;
-  height: 15em;
+  height: 15%;
   background-color: #283745;
   margin-left: 2em;
   border-radius: 5px;
@@ -318,7 +318,7 @@ align-items: center;
   transition: 1s;
   display: flex;
   width: 50%;
-  height: 15em;
+  height: 15%;
   background-color: #283745;
   border-radius: 5px;
 }
@@ -326,15 +326,14 @@ align-items: center;
   transition: 1s;
   display: flex;
   width: 50%;
-  height: 15em;
+  height: 15%;
   background-color: #283745;
   margin-left: 2em;
   border-radius: 5px;
 }
-
 .imgnew img{
-  width: 35vw;
-  height: 20vh;
+  width: 100%;
+  height: 20%;
   object-fit: cover;
   border-radius: 1.2em;
   padding: 0.5em 0.5em 0em 0.5em;
@@ -348,4 +347,5 @@ align-items: center;
   align-items: center;
   text-align: center;
   margin: 0;
+  width: 100%;
 }
