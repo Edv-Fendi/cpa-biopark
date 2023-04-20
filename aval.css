@@ -1,0 +1,28 @@
+.imgqrcode {
+    display: flex;
+    width: 20%;
+    align-self: center;
+    margin-top: 7em;
+    border-radius: 1em;
+}
+
+.new h1 {
+    align-self: center;
+}
+
+.new p {
+    align-self: center;
+    margin-top: 2em;
+    font-weight: 600;
+    color:#ffff;
+    font-size:20px;
+}
+
+.new a {
+ 
+    color:#FF1949;
+}
+
+.new b {
+ color:#FF1949;
+}
