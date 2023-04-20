@@ -66,7 +66,14 @@
   
   color: #283745; 
 }
-
+.main{
+  display: flex;
+  flex-direction: row;
+}
+.sec{
+  display: flex;
+  flex-direction: column;
+}
 .images {
   display: flex;
   flex-direction: row;
@@ -124,20 +131,20 @@
 /* Aqi comeca o corpo */
 
 .container{
-  display: flex;
-  position: sticky;
-  width: 80%;
+
+  width: 90%;
   height: 100%;
   /* border: solid; */
   flex-direction: row;
-  margin-left: 18%;
+  margin-left: 5%;
   margin-top: 2%;
+  
 }
 
 .menu{
 display: flex;
 flex-direction: column;
-position: absolute;
+
 /* border: solid;
 border-color: black; */
 
@@ -216,10 +223,10 @@ margin-bottom: 3em;
 }
 
 .news1e2{
-margin-left: 20%;
 display: flex;
-width: 75%;
+width: 90%;
 height: 100%;
+margin-left: 5%;
 /* background-color: #FF1949; */
 justify-content: center;
 align-items: center;
@@ -240,7 +247,7 @@ align-items: center;
   transition: 1s;
   display: flex;
   width: 50%;
-  height: 15%;
+  height: 100%;
   background-color: #283745;
   border-radius: 5px;
 }
@@ -248,17 +255,17 @@ align-items: center;
   transition: 1s;
   display: flex;
   width: 50%;
-  height: 15%;
+  height: 100%;
   background-color: #283745;
   margin-left: 2em;
   border-radius: 5px;
 }
 .news3e4{
   margin-top: 1em;
-  margin-left: 20%;
   display: flex;
-  width: 75%;
+  width: 90%;
   height: 100%;
+  margin-left: 5%;
   /* background-color: #FF1949; */
   justify-content: center;
   align-items: center;
@@ -267,7 +274,7 @@ align-items: center;
   transition: 1s;
   display: flex;
   width: 50%;
-  height: 15%;
+  height: 100%;
   background-color: #283745;
   border-radius: 5px;
 }
@@ -275,7 +282,7 @@ align-items: center;
   transition: 1s;
   display: flex;
   width: 50%;
-  height: 15%;
+  height: 100%;
   background-color: #283745;
   margin-left: 2em;
   border-radius: 5px;
@@ -350,3 +357,4 @@ align-items: center;
       margin-bottom: 1em;
       margin-top: 1em;
   }
+ 
