@@ -39,10 +39,10 @@
 }
 #header h1{
   display: flex;  
-  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 4.45em;
   color: #283745;
+  font-weight: 600;
 
 }
 #header h2{
