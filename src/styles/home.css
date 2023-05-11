@@ -4,6 +4,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
   }
   
   ul {
@@ -23,7 +25,6 @@
   display: flex;
   width: 100vw;
   font-family: 'Inter', sans-serif;
-  font-size: 1em;
   justify-content: space-between;
 }
 #header .logoLeft {
@@ -43,9 +44,11 @@
 #header h1{
   display: flex;  
   font-style: normal;
-  font-size: 4.45em;
+  font-size: 68px;
+  line-height: 80px;
   color: #283745;
   font-weight: 600;
+  margin: 0;
 
 }
 #header h2{
@@ -55,8 +58,9 @@
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 1.5em;
+  font-size: 25px;
   line-height: 0em;
+  margin: 0;
   
   color: #283745; 
 }
@@ -136,6 +140,7 @@
 }
 
 .menu{
+
 display: flex;
 flex-direction: column;
 
@@ -184,13 +189,14 @@ border-radius: 0px 10px 10px 0px;
 }
 
 #textomenu{
+  margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  font-weight: 200px;
+  /* font-weight: 200px; */
   color: white;
-  font-size: 200%;
+  font-size: 30px;
 }
 
 #last-item-menu{
