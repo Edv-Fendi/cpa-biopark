@@ -209,13 +209,12 @@ border-radius: 0px 10px 10px 0px;
 
 .input1{
     width: 100%;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
     border-radius: 1em;
     height: 3em;
 }
 
 .label1{
-    margin-left: 0.5em;
     margin-bottom: 0.1em;
     display: flex;
     flex-direction: column;
@@ -225,7 +224,7 @@ border-radius: 0px 10px 10px 0px;
     font-style: normal;
     font-weight: 300;
     font-size: 0.8em;
-    align-items: start;
+    align-items: center;
 }
 
 textarea{
@@ -240,7 +239,7 @@ textarea{
     margin-top: 1.5em;
     border-radius: 1em;
     height: 4em;
-    background-color: #4B759B;
+    background-color: #2C445A;
     color: white;
 }
 
@@ -251,9 +250,9 @@ textarea{
   color: white;
   border-radius: 5em 5em 5em 5em;
   justify-content: flex-start;
-  margin: 2.5em 2.5em 0em 2.5em;
+  margin: 5em 20em 5em 20em;
   width: 90%;
-  height: 60em;
+  height: 40em;
   align-items: center;
   padding: 1em;
 }
@@ -261,36 +260,54 @@ textarea{
 .texto-retangulo{
   display: flex;
   flex-direction: column;
-  flex: 2;
   height: 100%;
-  
-  justify-self: center;
-  margin-top: 0.1em;
+  margin-top: 2em;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.5em;
+  text-align: center;
+  flex: 1;
 }
 
 .titulo-retangulo{
   display: flex;
   flex-direction: column;
-  width: 100%;
-  text-align: center;
-  height: 20%;
-
+  margin-top: 0.5em;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.5em;
+  text-align: center;
+  flex: 1;
+}
+
+.x{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  text-align: center;
+  flex: 1;
+  text-align: right;
+  margin-right: 2.5em;
+}
+
+.main-titulo{
+  width: 100%;
+  height: 20%;
+  display: flex;
 }
 
 .main-retangulo{
   width: 100%;
-  height: 60%;
+  height: 100%;
   display: flex;
+  text-align: center;
   /* padding: 2em; */
 }
+
 .assunto{
   display: flex;
   flex-direction: column;
@@ -310,16 +327,36 @@ textarea{
   display: flex;
   flex-direction: column;
 }
-.label2{
+.esqueceu-senha{
   margin: 0 0 0.2em 0.5em;
     justify-self: center;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.2em;
+    font-size: 0.6em;
+    margin-top: 2em;
     
-  
 }
+    a:link {
+      color: white;
+   }
+   
+  
+   a:visited {
+       color: white;
+   }
+   
+ 
+   a:hover {
+       color: white;
+   }
+   
+
+   a:active {
+       color: white;
+   }
+  
+
 input.input2{
   
   margin-top: 1em;
@@ -370,7 +407,7 @@ input[type=checkbox]:checked:after {
 }
 
 
-
+ */
 
 .main-footer{
   display: flex;
@@ -393,10 +430,10 @@ align-items: center;
 justify-content: start;
 padding: auto;
 }
-.email img,p,.map img,p{
+.email img,.map img{
   margin-left: 1.5em;
 }
-.insta p,.face p,.whats p{
+.insta, .face, .whats {
 width: 14em;
 }
 

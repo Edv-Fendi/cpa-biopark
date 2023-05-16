@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-size: medium;
+    font-weight: 400;
   }
   
   ul {
@@ -12,34 +15,51 @@
   a {
     text-decoration: none;
   }
+  
+  body{
+    overflow-x: hidden;
+    width: 100%;
+    height: 46vh;
+ }
+  
 /*==============  HEADER ============================ */
 #header{
   display: flex;
-  width: 100vw;
+  width: 100%;
   font-family: 'Inter', sans-serif;
-  font-size: 1em;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.headerbg{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
   justify-content: space-between;
 }
-#header .logoLeft {
+.logo{
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin: 1em;
+  width: 10em;
+}
+.logo>img{
+  object-fit: contain;
+  width: 100%;
 }
 .cpaLogo{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
+  width: auto;
 
 }
 #header h1{
   display: flex;  
-  font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-size: 4.45em;
+  font-size: xx-large;
+  line-height: 80px;
   color: #283745;
+  font-weight: 600;
+  margin: 0;
 
 }
 #header h2{
@@ -49,18 +69,22 @@
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 1.5em;
+  font-size: large;
   line-height: 0em;
+  margin: 0;
   
   color: #283745; 
 }
 .main{
   display: flex;
   flex-direction: row;
+  width: 100%;
+  margin-bottom: 1em;
 }
 .sec{
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .images {
   display: flex;
@@ -82,14 +106,14 @@
 .instagram{
   width: 2em;
   height: 2em;
-  margin: 0.3em 3.12em 0.3em 0.3em;
+  margin: 0.3em  0.3em 0.3em;
 }
 
 .line{
-  position: absolute;
+  display: flex;
   width: 100%;
-  top: 8em;
-
+  height: 5px;
+  background-color: #283745;
   border: 0.1em solid #283745;
 }
 .rectangle:hover{
@@ -113,21 +137,23 @@
   transition-delay: 5;
 }
 #marginal{
-  margin-right: 4em;
+  margin-right: 2em;
 }
 /* Aqi comeca o corpo */
 
 .container{
 
-  width: 90%;
+  width: 73em;
   height: 100%;
   flex-direction: row;
   margin-left: 5%;
   margin-top: 2%;
+  margin-right: 0;
   
 }
 
 .menu{
+
 display: flex;
 flex-direction: column;
 
@@ -176,13 +202,14 @@ border-radius: 0px 10px 10px 0px;
 }
 
 #textomenu{
+  margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  font-weight: 200px;
+  /* font-weight: 200px; */
   color: white;
-  font-size: 200%;
+  font-size: medium;
 }
 
 #last-item-menu{
@@ -300,7 +327,7 @@ align-items: center;
   display: flex;
   background-color: #283745;
   width: 100%;
-  height: 100%;
+  height: 65vh;
   justify-content: space-between;
   align-self: flex-end;
   }
@@ -329,13 +356,13 @@ align-items: center;
       height:5% ;
       justify-content: center;
       color: white;
-      font-size: 9px;
+      font-size: medium;
   }
   
   #mini-map{
   
       display: flex;
-      align-self: flex-end;
+      align-self: flex-start;
       align-items: right;
       border: 3px;
       border-color: black;
@@ -348,3 +375,54 @@ align-items: center;
     justify-content: center;
   }
  
+  @media(max-width: 1450px){
+    .container
+    {
+      width: 90%;
+    }
+    
+  }
+  @media(max-width: 670px){
+    .container
+    {
+      display: none;
+    }
+    
+  }
+  @media(max-width: 670px){
+    .cpaLogo>h2,
+    .cpaLogo>h1{
+      opacity: 0% ;
+    }
+    .cpaLogo{
+      display: none;
+    }
+    #marginal{
+      margin-right: 20px;
+    }
+  }
+  @media(max-width: 700px){
+    .rede-social{
+      display: none ;
+    }
+    .img-center{
+      align-content: center;
+      justify-content: center;
+      margin: 0;
+      margin-top: 10em;
+    }
+
+  }
+  @media(max-width: 420px){
+    .rede-social,
+    #mini-map{
+      display: none ;
+    }
+    .img-center{
+      align-content: center;
+      justify-content: center;
+      margin: 0;
+      margin-top: 10em;
+    }
+
+  }

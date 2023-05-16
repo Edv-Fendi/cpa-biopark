@@ -25,7 +25,9 @@
 
 
 .perguntas-recentes{
-margin-left: 5em;
+margin: 2em;
+margin-bottom: 1em;
+margin-top: 1em;
 align-items: center;
 display: flex;
 flex-direction: column;
@@ -33,14 +35,13 @@ border-color: #283745;
 border-top: 5em;
 justify-content: center;
 width: 65em;
-height: 10em;
-border: 2px solid #ccc; 
+height: auto;
+border: 1px solid #ccc; 
 border-radius: 2em; 
 background-color: #283745;
 color: white;
-padding: 2em;
-border-bottom: 1;
-margin-bottom: 2em;
+padding: 1em;
+margin-left: 5em;
 }
 a {
     text-decoration: none;
