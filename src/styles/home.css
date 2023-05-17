@@ -193,11 +193,14 @@
   width: 55%;
   position: absolute;
 
-  height: 130vh;
+  height: 188.2vh;
 }
 .menurecolido>a{
   text-decoration-line: none;
   color: whitesmoke;
+  padding: 10px;
+  
+  
 }
 
 #menuToggle:checked~#menuButton>#menuButtonIcon {
@@ -480,7 +483,13 @@ align-items: center;
 }
 @media (max-width: 650px) {
 
-    .menu{
+    .menu,.new2,.new4{
         display: none;
+    }
+    .news1e2,.news3e4{
+      flex-wrap: wrap;
+    }
+    .new1,.new3{
+      width: auto;
     }
 }
