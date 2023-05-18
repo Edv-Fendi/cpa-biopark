@@ -34,11 +34,16 @@
   display: flex;
   flex-direction: row;
   width: 100%;
+}
+.logoeimg{
+  display: flex;
   justify-content: space-between;
+  flex: 1;
 }
 .logo{
   display: flex;
   width: 10em;
+  margin-left: 2em  ;
 }
 .logo>img{
   object-fit: contain;
@@ -187,13 +192,16 @@
   color: hsla(210, 26%, 7%, 1);
 }
 #menuToggle:checked~#menuButton {
-  background-color: rgb(0, 0, 0,0.9);
+  background-color: rgb(15, 15, 15);
   z-index: 2;
   top: 0px;
   width: 55%;
   position: absolute;
 
   height: 188.2vh;
+}
+.menurecolido{
+  margin-top: 65px;
 }
 .menurecolido>a{
   text-decoration-line: none;
@@ -267,7 +275,7 @@ border-radius: 0px 10px 10px 0px;
   top: 11.50em;
   transition: 0.5s;
   transition-delay: 5;
-/*   
+  /*   
   border: solid;
   border-color: black; */
 
@@ -291,18 +299,10 @@ margin-left: 5%;
 justify-content: center;
 align-items: center;
 }
-.new1:hover{
-  transform: scale(1.1);
+.new1:hover,.new3:hover,.new2:hover,.new4:hover{
+  transform: scale(105%);
 }
-.new2:hover{
-  transform: scale(1.1);
-}
-.new3:hover{
-  transform: scale(1.1);
-}
-.new4:hover{
-  transform: scale(1.1);
-}
+
 .new1{
   transition: 1s;
   display: flex;
@@ -377,119 +377,117 @@ align-items: center;
   height: 65vh;
   justify-content: space-between;
   align-self: flex-end;
-  }
+}
   
-  .rede-social{
-  
-  display: flex;
-  flex-direction: column;
-  margin-top: 2em;
-  margin-left: 1em;
-  margin-bottom: 1em;
- 
-  }
-  .rede-social a{
-    color: white;
-  }
-  
-  .img-center{
-      flex-direction: column;
-      display: flex;
-      align-items: center;
-      margin-right: 1em;
-      margin-bottom: 1em;
-      margin-top: 15em;
-      width: 20em;
-      height:5% ;
-      justify-content: center;
-      color: white;
-      font-size: medium;
-  }
-  
-  #mini-map{
-  
-      display: flex;
-      align-self: flex-start;
-      align-items: right;
-      border: 3px;
-      border-color: black;
-      margin-right: 1em;
-      margin-bottom: 1em;
-      margin-top: 1em;
-  }
+.rede-social{
 
-  .pagination{
+display: flex;
+flex-direction: column;
+margin-top: 2em;
+margin-left: 1em;
+margin-bottom: 1em;
+
+}
+.rede-social a{
+  color: white;
+}
+
+.img-center{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    margin-top: 15em;
+    width: 20em;
+    height:5% ;
+    justify-content: center;
+    color: white;
+    font-size: medium;
+}
+  
+#mini-map{
+
+    display: flex;
+    align-self: flex-start;
+    align-items: right;
+    border: 3px;
+    border-color: black;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.pagination{
+  justify-content: center;
+}
+
+@media(max-width: 1450px){
+  .container
+  {
+    width: 90%;
+  }
+  
+}
+@media(max-width: 670px){
+  .container
+  {
+    display: none;
+  }
+  
+}
+@media(max-width: 670px){
+  .cpaLogo>h2,
+  .cpaLogo>h1{
+    opacity: 0% ;
+  }
+  .cpaLogo{
+    display: none;
+  }
+  #marginal{
+    margin-right: 20px;
+  }
+}
+@media(max-width: 700px){
+  .rede-social{
+    display: none ;
+  }
+  .img-center{
+    align-content: center;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10em;
+    
+  }
+  
+}
+@media(max-width: 420px){
+  .rede-social,
+  #mini-map{
+    display: none ;
+  }
+  #footer{
     justify-content: center;
   }
- 
-  @media(max-width: 1450px){
-    .container
-    {
-      width: 90%;
-    }
-    
-  }
-  @media(max-width: 670px){
-    .container
-    {
-      display: none;
-    }
-    
-  }
-  @media(max-width: 670px){
-    .cpaLogo>h2,
-    .cpaLogo>h1{
-      opacity: 0% ;
-    }
-    .cpaLogo{
-      display: none;
-    }
-    #marginal{
-      margin-right: 20px;
-    }
-  }
-  @media(max-width: 700px){
-    .rede-social{
-      display: none ;
-    }
-    .img-center{
-      align-content: center;
-      justify-content: center;
-      margin: 0;
-      margin-top: 10em;
-    }
 
+}
+@media (min-width: 650px) {
+  .menurecolido,
+  #menuButton{
+      display: none;
+      opacity: 0;
+      
   }
-  @media(max-width: 420px){
-    .rede-social,
-    #mini-map{
-      display: none ;
-    }
-    .img-center{
-      align-content: center;
-      justify-content: center;
-      margin: 0;
-      margin-top: 10em;
-    }
-
-  }
-  @media (min-width: 650px) {
-    .menurecolido,
-    #menuButton{
-        display: none;
-        opacity: 0;
-        
-    }
 }
 @media (max-width: 650px) {
 
-    .menu,.new2,.new4{
-        display: none;
-    }
-    .news1e2,.news3e4{
-      flex-wrap: wrap;
-    }
-    .new1,.new3{
-      width: auto;
-    }
+  .menu,.new2,.new4{
+      display: none;
+  }
+  .news1e2,.news3e4{
+    flex-wrap: wrap;
+  }
+  .new1,.new3{
+    width: auto;
+  }
 }
