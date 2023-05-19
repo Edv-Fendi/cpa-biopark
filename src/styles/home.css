@@ -43,7 +43,7 @@
 .logo{
   display: flex;
   width: 10em;
-  margin-left: 2em  ;
+  margin-left: 2em;
 }
 .logo>img{
   object-fit: contain;
@@ -478,6 +478,7 @@ margin-bottom: 1em;
       opacity: 0;
       
   }
+  
 }
 @media (max-width: 650px) {
 
@@ -489,5 +490,9 @@ margin-bottom: 1em;
   }
   .new1,.new3{
     width: auto;
+  }
+  .logo{
+    width: 7em;
+    margin-left: 0em;
   }
 }
