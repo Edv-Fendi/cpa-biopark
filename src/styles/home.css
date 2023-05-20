@@ -422,16 +422,6 @@ margin-bottom: 1em;
   justify-content: center;
 }
 
-<<<<<<< HEAD
-=======
-@media(max-width: 1450px){
-  .container
-  {
-    width: 90%;
-  }
-  
-}
-
 @media(max-width: 700px){
   .rede-social{
     display: none ;
@@ -445,7 +435,7 @@ margin-bottom: 1em;
   }
   
 }
->>>>>>> a6c5602bff54b65a5f719ffbbf9f7eac5d6f5dd4
+
 @media(max-width: 670px){
   .container
   {
