@@ -148,7 +148,7 @@
 
 .container{
 
-  width: 73em;
+  width: 90%;
   height: 100%;
   flex-direction: row;
   margin-left: 5%;
@@ -422,13 +422,6 @@ margin-bottom: 1em;
   justify-content: center;
 }
 
-@media(max-width: 1450px){
-  .container
-  {
-    width: 90%;
-  }
-  
-}
 @media(max-width: 670px){
   .container
   {
