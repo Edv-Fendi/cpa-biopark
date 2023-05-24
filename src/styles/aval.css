@@ -1,3 +1,6 @@
+.sec{
+    width: 100%;
+}
 .containerAval{
     width: 95%;
     height: 100%;
@@ -9,7 +12,6 @@
 .tituloNewAval{
     display: flex;
     width: 100%;
-    
     font-family: Inter;
     font-style: initial;
     font-weight: 600;
