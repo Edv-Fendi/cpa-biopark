@@ -58,6 +58,7 @@ margin-top: 2em;
     
         .perfil-membros{ 
 
+            display: flex;
         
         }
         
