@@ -41,6 +41,12 @@ margin-top: 2em;
 
 }
 
+.membros-376px{
+
+    display: none;
+    
+}
+
 .perfil-membros>h3{
 
     color: white;
@@ -48,8 +54,45 @@ margin-top: 2em;
     
     }
 
-    @media(max-width: 376px){}
+    @media(max-width: 376px){
+    
+        .perfil-membros{ 
 
-    @media(max-width: 650px){}
+        
+        }
+        
+        .painelmembers{
 
-    @media(max-width: 1450px){}
+            display: none;
+        }
+
+        .membros-376px{
+
+            display: flex;
+            width: 10em;
+        height: 10em;
+        background-color:#283745;
+
+        }
+
+        .membros{
+
+            display: none;
+        }
+
+    }
+
+    @media(max-width: 650px){
+
+
+
+
+    }
+
+    @media(max-width: 1450px){
+
+
+
+
+
+    }
