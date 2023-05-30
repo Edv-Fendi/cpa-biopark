@@ -264,9 +264,8 @@ input[type=checkbox]:checked:after {
 }
 
 .footer-esq{
-  
   flex: 1;
-}
+} 
 
 .email,.map{
 display: flex;
@@ -293,44 +292,11 @@ width: 14em;
 
 /*footer*/
 
-.rodape{ 
-
-  display: flex;
-  margin-top: 2em;
-  background-color: #283745;
-  width: 100%;
-  height: 100%;
-  justify-content: space-between;
-  align-self: flex-end;
-  }
-  
-  .rede-social{
-  
-  display: flex;
-  flex-direction: column;
-  margin-top: 2em;
-  margin-left: 1em;
-  margin-bottom: 1em;
- 
-  }
   .rede-social a{
     color: white;
   }
   
-  .img-center{
-      flex-direction: column;
-      display: flex;
-      align-items: center;
-      margin-right: 1em;
-      margin-bottom: 1em;
-      margin-top: 15em;
-      width: 20em;
-      height:5% ;
-      justify-content: center;
-      color: white;
-      font-size: 9px;
-  }
-  
+
   #mini-map{
   
       display: flex;

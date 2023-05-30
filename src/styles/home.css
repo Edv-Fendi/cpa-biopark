@@ -386,21 +386,26 @@ flex-direction: column;
 margin-top: 2em;
 margin-left: 1em;
 margin-bottom: 1em;
+gap: 2em;
 
 }
 .rede-social a{
-  color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.rede-social img{
+  padding-right: 0.5rem;
 }
 
 .img-center{
     flex-direction: column;
     display: flex;
     align-items: center;
-    margin-right: 1em;
-    margin-bottom: 1em;
-    margin-top: 6em;
     width: 20em;
-    height:5% ;
     justify-content: center;
     color: white;
     font-size: medium;
@@ -418,8 +423,24 @@ margin-bottom: 1em;
     margin-top: 1em;
 }
 
+#carouselId{
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
+  
+}
+
 .pagination{
   justify-content: center;
+}
+
+
+.page-link{
+  color: #283745;
+}
+
+.Facebook-Footer{
+  display: flex;
+  flex: 1;
 }
 
 @media(max-width: 700px){
