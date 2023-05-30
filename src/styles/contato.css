@@ -346,4 +346,25 @@ width: 14em;
   .pagination{
     justify-content: center;
   }
- 
+
+  @media(max-width:735px){
+
+    .retangulo{
+
+      width: 80%;
+      margin: 2.5em 2.5em 0em 0.5em
+
+    }
+
+  }
+
+  @media(min-width:675px){
+
+    .retangulo{
+
+      width: 80%;
+      margin: 2.5em 0.5em 0em 0.5em
+
+    }
+  } 
+  
