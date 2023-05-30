@@ -80,6 +80,8 @@
   
   color: #283745; 
 }
+
+
 .main{
   display: flex;
   flex-direction: row;
@@ -226,6 +228,15 @@
 }#last-item-menu:hover{
   transform: scale(1.1);
 }
+
+.qr-code{
+  object-fit: contain;
+  width: 90%;
+  border: 2px solid #283745;
+  margin-top: 3.70rem;
+  margin-left: 10%;
+}
+
 .item-menu{
 display: flex;
 justify-content: left;
