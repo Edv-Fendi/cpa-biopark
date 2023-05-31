@@ -3,7 +3,7 @@
 }
 .containerAval{
     width: 95%;
-    height: 100%;
+    height: auto;
     flex-direction: row;
     margin-left: 5%;
     margin-top: 2%;
@@ -33,7 +33,7 @@
     border: solid;
     background: #283745;
     width: 95%;
-    height: 48em;
+    height: auto;
     border-radius: 10px;
     flex-direction: column;
     padding: 10px;
@@ -68,9 +68,4 @@
     .containerAval{
      width: auto;
     }
-}
-@media(max-width: 650px){
-    .newAval{
-        height: 31em;
-    } 
 }
