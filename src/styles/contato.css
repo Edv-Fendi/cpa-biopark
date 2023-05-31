@@ -250,7 +250,9 @@ input[type=checkbox]:checked:after {
   bottom: 0.2em;
 }
 
-
+.title-qrcode{
+  margin-left: 0;
+}
 
 
 .main-footer{
