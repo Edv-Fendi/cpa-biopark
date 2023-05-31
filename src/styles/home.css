@@ -233,8 +233,45 @@
   object-fit: contain;
   width: 90%;
   border: 2px solid #283745;
-  margin-top: 3.70rem;
+  margin-top: 1.5rem;
+  margin-left: 5%;
+}
+.bg-code{
+  background: #283745;
+  width:85%;
   margin-left: 10%;
+  margin-top: 3rem; 
+  border-radius: 8px;
+  color: #fff;
+}
+
+.title-qrcode{
+  display: flex;
+  font-weight: bold;
+  flex: 1;
+  font-size: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  align-content: center;
+  margin-bottom: 0;
+
+}
+
+.text-ref{
+  color: red;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.text-qr-code{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: 5%;
+  justify-content: center;
+  text-align: center;
+  
 }
 
 .item-menu{

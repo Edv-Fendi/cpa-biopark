@@ -77,9 +77,9 @@ textarea{
   text-align: center;
   height: 20%;
   margin-top: 1em;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 600;
+}
+
+.titulo-retangulo h2{
   font-size: 2em;
 }
 
