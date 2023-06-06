@@ -398,9 +398,9 @@ align-items: center;
 }
 .imgnew img{
   width: 100%;
-  height: 20%;
+  height: 20vh;
   object-fit: cover;
-  border-radius: 1.2em;
+  border-radius: 5px;
   padding: 0.5em 0.5em 0em 0.5em;
   margin: 0;
   
