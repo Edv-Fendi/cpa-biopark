@@ -51,9 +51,10 @@ textarea{
   justify-content: flex-start;
   margin: 2.5em 2.5em 0em 2.5em;
   width: 90%;
-  height: 60em;
+  height: 100vh;
   align-items: center;
   padding: 1em;
+  gap: 1em;
 }
 
 .texto-retangulo{
@@ -75,7 +76,7 @@ textarea{
   flex-direction: column;
   width: 100%;
   text-align: center;
-  height: 20%;
+  height: 10%;
   margin-top: 1em;
 }
 
@@ -86,16 +87,28 @@ textarea{
 .pdf{
   display: flex;
   flex-direction: column;
-  margin-bottom: 8em;
-  color: red;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.5em;
 }
+.pdf>h2{
+
+font-size: large;
+color: black;
+padding-bottom: 5px;
+font-weight: bold;
+
+}
+.pdf>p{
+
+text-align: justify;
+color: black;
+
+}
 
 a:link {
-  color: red;
+  color: blue;
 }
 
 
@@ -273,4 +286,14 @@ width: 14em;
   .pagination{
     justify-content: center;
   }
- 
+
+  .retangulo-pdf{
+
+    display: flex;
+    background-color: white;
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    padding: 1em;
+  }
+
