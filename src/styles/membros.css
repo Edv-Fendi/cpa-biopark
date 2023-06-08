@@ -3,20 +3,46 @@ a{
 text-decoration: none;
 
 }
-
-.painelmembers{
-    
-    width: 70em;
+.bg_membro{
+    margin-top: 1em;
+    display: flex;
+    width: 30vw;
     background-color: #283745;
-    height: 40em;
+    border-radius: 15px;
+    padding-bottom: 1em;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    padding-left:1em ;
+}
+.bg_membro>p{
+
+    align-self: center;
+    padding-right: 1em ;
+    font-weight: bold;
+    padding-left: 1em;
+    color: white;
+}
+.alinha{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* align-self: stretch; */
+    gap: 5em;
+}
+.painelmembers{
+    
+    width: 90%;
+    /* background-color: #ffffff; */
+    height: 40em;
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     border-radius: 1em;
     margin:1em;
     align-items: center;
     gap: 2em;
-    margin-left: 3em ;    
+    margin-left: 3em ; 
+    justify-content: space-around;
     }
 
 
@@ -48,221 +74,49 @@ justify-content: center;
 
 .perfil-membros{
 
-margin-top: 2em;
+/* margin-top: 2em; */
+display: flex;
+flex-direction: column;
+align-items: center;
 
 }
 
-.membros-376px{
-
-    display: none;
-    
-}
 
 .perfil-membros>h3{
-
+    width: auto;
     color: white;
-    margin: 0px 2em 0px 2em;
-    
+    font-weight: bold;
+}
+.perfil-membros>img{
+    width: 8em;
+    height: 8em;
+    object-fit: cover;
+    border-radius: 15px;
 }
 
-.membros-650px{
 
-display: none;
-         
-}
 .section-membros{
 
     width: 100%;
 
 }
-@media(max-width: 376px){
-    
-        .perfil-membros{ 
-
-            display: flex;
-        
-        }
-        
-        .painelmembers{
-
-            display: none;
-        }
-
-        .membros-376px{
-
-            display: flex;
-            width: 18em;
-            height: 9em;
-            background-color:#283745;
-            margin-left:3em ;
-            margin-top: 3em;
-            border-radius: 1em;
-            flex-direction: column;
-            flex-wrap: wrap;
-        }
-
-        .membros{
-
-            display: none;
-        }
-
-        .perfilmembros-376px{
-            
-            align-items: center;
-            margin-left: 2em;
-            display: flex;
-           
-        }
-
-        .vermais{
-
-            width: 8em;
-            margin-left: 1em;
-            font-size: 12px;
-        }
-
-        .membros-376px>h3{
-
-            color: white;
-            font-size: 1em;
-            margin-left: 2em;
-            margin-top: 1em;
-
-        }
-
-        .perfilmembros-376px>p{
-
-            color: white;
-            display: flex;
-            margin-left: 2em;
-        }
-
+@media(max-width: 880px){
+    .painelmembers{
+        flex-direction: column;
+        height: auto;
+        padding: 1em;
     }
-
-    @media(max-width: 651px){
-
-        .painelmembers{
-
-           height: 60em;
-           width:36em;
-        }
-
+    .bg_membro{
+        width: auto;
     }
-
-    @media(max-width: 1300px){
-
-        .painelmembers{
-
-            width: 60em;
-
-        }
-
-
-
+  }
+@media(max-width: 650px){
+    .painelmembers{
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 93%;
     }
-
-    @media(max-width: 1125px){
-
-        .painelmembers{
-
-            width: 45em ;
-        }
-
-
-
+    .alinha{
+        gap: 2em;
     }
-
-    @media(max-width: 888px){
-
-        .painelmembers{
-
-            width: 30em ;
-            height: 60em;
-            margin-left: 5em;
-            
-        }
-
-
-
-    }
-
-    @media(max-width: 575px){
-
-        .painelmembers{
-
-           margin-left: 1em;
-
-        }
-
-
-
-    }
-
-    @media(max-width: 511px){
-
-
-      
-
-        .membros-376px{
-
-            display: flex;
-            width: auto;
-            height: 9em;
-            background-color:#283745;
-            margin-left:3em ;
-            margin-top: 3em;
-            border-radius: 1em;
-            flex-direction: column;
-            flex-wrap: wrap;
-            margin-right: 3em ;
-        }
-
-        .painelmembers{
-
-            display: none;
-        }
-
-        .perfilmembros-376px>p{
-
-            color: white;
-            display: flex;
-            margin-left: 2em;
-        }
-
-        .membros{
-
-            display: none;
-        }
-
-        .perfilmembros-376px{
-            
-            align-items: center;
-            margin-left: 2em;
-            display: flex;
-    
-        }
-
-        .vermais{
-
-            width: 8em;
-            margin-left: 1em;
-            font-size: 12px;
-        }
-
-        .membros-376px>h3{
-
-            color: white;
-            font-size: 1em;
-            margin-left: 2em;
-            margin-top: 1em;
-
-        }
-
-        .perfilmembros-376px>p{
-
-            color: white;
-            display: flex;
-            margin-left: 2em;
-        }
-
-    }
+}
