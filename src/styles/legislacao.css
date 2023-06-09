@@ -47,11 +47,11 @@ textarea{
   flex-direction: column;
   background: #283745;
   color: white;
-  border-radius: 5em 5em 5em 5em;
+  border-radius: 15px;
   justify-content: flex-start;
   margin: 2.5em 2.5em 0em 2.5em;
   width: 90%;
-  height: 100vh;
+  height: 100%;
   align-items: center;
   padding: 1em;
   gap: 1em;
@@ -297,3 +297,60 @@ width: 14em;
     padding: 1em;
   }
 
+  .accordion{
+
+    display: none;
+
+  }
+  .panel{
+
+    display: none;
+
+  }
+
+@media(max-width: 650px){
+
+  .retangulo-pdf{
+
+    display: none;
+
+  }
+
+  .accordion{
+
+    display: flex;
+    width:90%;
+    height:auto;
+    background-color: #4B759B;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1em;
+    margin-top: 1em;
+  }
+
+  .panel{
+
+    
+    background-color: white;
+    width: 80%;
+    height: auto;
+    border-radius:0px 0px 10px 10px;
+   
+  }
+  
+  .retangulo{
+  
+   gap: 0px;
+    height: auto;
+    border-radius: 15px;
+
+  }
+
+  .panel>p{
+
+    color: black;
+    padding: 10px;
+  }
+
+
+}
