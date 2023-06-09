@@ -91,8 +91,9 @@ border-radius: 0px 10px 10px 0px;
 .input1{
     width: 100%;
     margin-bottom: 0em;
-    border-radius: 1em;
+    border-radius: 15px;
     height: 3em;
+    padding: 1em;
 }
 
 .label1{
@@ -112,14 +113,15 @@ border-radius: 0px 10px 10px 0px;
 textarea{
     width: 100%;
     margin-top: 0em;
-    border-radius: 1em;
+    border-radius: 15px;
+    padding: 1em;
 }
 
 .botao-enviar{
     width: 13em;
     align-self: end;
     margin-top: 1.5em;
-    border-radius: 1em;
+    border-radius: 15px;
     height: 4em;
     background-color: #4B759B;
     color: white;
@@ -130,11 +132,11 @@ textarea{
   flex-direction: column;
   background: #283745;
   color: white;
-  border-radius: 5em 5em 5em 5em;
+  border-radius: 15px;
   justify-content: flex-start;
   margin: 2.5em 2.5em 0em 2.5em;
   width: 90%;
-  height: 60em;
+  height: auto;
   align-items: center;
   padding: 1em;
 }
@@ -168,7 +170,7 @@ textarea{
 
 .main-retangulo{
   width: 100%;
-  height: 60%;
+
   display: flex;
   /* padding: 2em; */
 }
@@ -176,7 +178,7 @@ textarea{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5em;
+  margin-top: 2em;
   margin-right: 1.2em;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -213,7 +215,7 @@ input.input2{
 li{
   display: flex;
   align-items: flex-end;
-  justify-content: center;
+
   padding: 1.0em;
 }
 
@@ -224,8 +226,7 @@ input[type=checkbox] {
 
 input[type=checkbox]:before {
   content: "";
-  display: block;
-  position: absolute;
+  display: flex;
   width: 2em;
   height: 2em;
   top: 0;
@@ -314,25 +315,32 @@ width: 14em;
   .pagination{
     justify-content: center;
   }
-
-  @media(max-width:735px){
-
-    .retangulo{
-
-      width: 80%;
-      margin: 2.5em 2.5em 0em 0.5em
-
+  @media(max-width:900px){
+    .bg-code{
+      display: none;
     }
+  }
+  @media(max-width:750px){
+
+  .main-retangulo{
+    flex-direction: column-reverse;
+  }
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  li{
+    width: 10em;
+  }
 
   }
 
-  @media(min-width:675px){
+  @media(max-width:650px){
 
-    .retangulo{
-
-      width: 80%;
-      margin: 2.5em 0.5em 0em 0.5em
-
+    .main-footer{
+      display: none;
     }
   } 
   
