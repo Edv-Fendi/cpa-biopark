@@ -498,11 +498,12 @@ gap: 2em;
     display: none ;
   }
   .img-center{
+    width: 100%;
     align-content: center;
     justify-content: center;
     margin: 0;
     margin-bottom: 1em;
-    margin-top: 2em;
+    margin-top: 2em;  
   }
   
   
