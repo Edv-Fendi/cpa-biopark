@@ -44,6 +44,7 @@ text-decoration: none;
     gap: 2em;
     margin-left: 3em ; 
     justify-content: space-around;
+    margin-top: 0;
     }
 
 
@@ -67,7 +68,10 @@ display: flex;
 justify-content: center;
 
 }
-
+.membros>h1{
+    font-weight: 900;
+    padding-top: 1em;
+}
 .page-link{
     color: #283745;
 }
