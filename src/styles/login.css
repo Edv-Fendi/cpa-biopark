@@ -1,0 +1,152 @@
+main{
+    justify-content: center;
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.input1{
+    width: 100%;
+    margin-bottom: 2em;
+    border-radius: 1em;
+    height: 3em;
+    padding: 1em;
+}
+
+.label1{
+    margin-bottom: 0.1em;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-self: center;;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.8em;
+    align-items: center;
+}
+
+textarea{
+    width: 100%;
+    margin-top: 0em;
+    border-radius: 1em;
+}
+
+.botao-enviar{
+    width: 13em;
+    align-self: end;
+    margin-top: 1.5em;
+    border-radius: 1em;
+    height: 4em;
+    background-color: #2C445A;
+    color: white;
+}
+
+.retangulo{
+  display: flex;
+  flex-direction: column;
+  background: #283745;
+  color: white;
+  border-radius: 15px;
+  justify-content: flex-start;
+  margin: 1em;
+  width: 90%;
+  height: auto;
+  align-items: center;
+  padding: 1em;
+}
+
+
+.texto-retangulo{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5em;
+  text-align: center;
+  flex: 1;
+}
+
+.titulo-retangulo{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5em;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5em;
+  text-align: center;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+.x{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  text-align: center;
+  flex: 1;
+  text-align: right;
+  margin-right: 2.5em;
+}
+
+.main-titulo{
+  width: 100%;
+  height: 20%;
+  display: flex;
+}
+
+.main-retangulo{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  /* padding: 2em; */
+}
+
+.assunto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5em;
+  margin-right: 1.2em;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 1em;
+  height: 100%;
+  flex: 1;
+  
+}
+
+.form2{
+  display: flex;
+  flex-direction: column;
+}
+.esqueceu-senha{
+  margin: 0 0 0.2em 0.5em;
+    justify-self: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.6em;
+    margin-top: 2em;
+    
+}
+
+@media(min-width:600px){
+    .retangulo{
+        width: 50%;
+        height: 70vh;
+
+    }
+}
