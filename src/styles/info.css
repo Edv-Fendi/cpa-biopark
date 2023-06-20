@@ -74,6 +74,8 @@
     }
     .tituloNew{
         height: auto;
+        font-size: xx-large;
+        padding-bottom: 0.5em;
     }
     .new{
         height: auto;
