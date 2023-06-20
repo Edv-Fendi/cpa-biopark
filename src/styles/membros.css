@@ -113,7 +113,7 @@ align-items: center;
     }
     .bg_membro{
         width: auto;
-        min-width: 512px;
+        min-width: 570px;
     }
   }
 @media(max-width: 750px){
