@@ -113,6 +113,17 @@ align-items: center;
     }
     .bg_membro{
         width: auto;
+        min-width: 512px;
+    }
+  }
+@media(max-width: 750px){
+    .painelmembers{
+        flex-direction: column;
+        height: auto;
+        padding: 1em;
+    }
+    .bg_membro{
+        width: auto;
         min-width: 321px;
     }
   }
