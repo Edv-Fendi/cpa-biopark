@@ -6,7 +6,11 @@
     flex-direction: row;
     width: 70em;
     margin-top: 2em;
-
+    
+}
+.perguntas>h1{
+  font-size:2em; 
+  font-weight: 900;
 }
 
 .page-link{
@@ -128,7 +132,10 @@ a {
 
 @media(max-width: 650px){
   
-
+  .perguntas>h1{
+    font-size:2em; 
+    font-weight: 600;
+  }
   .accordion {
   background-color: #283745;
   color: white;
@@ -141,6 +148,7 @@ a {
   font-size: 6px;
   transition: 0.4s;
   display: flex;
+  
 }
 .accordion>h1{
 
@@ -189,7 +197,7 @@ font-size: 20px;
 
   .perguntas-recentes{
 
-  width: auto;
+  width: 90%;
   margin-left: 3em;
   text-align: center;
   }
